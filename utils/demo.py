@@ -7,5 +7,6 @@ def index(request):
 
 
 def demo(request):
-    print('我是在lancer新增的demo视图')0
+    print('我是在lancer新增的demo视图')
+    print('123')
     return HttpResponse()
